@@ -30,7 +30,7 @@ header{
 
 #menu li{
     list-style: none;
-    display: left;
+    display:inline block;
     margin: 20px;
 }
 
@@ -43,9 +43,10 @@ header{
 
 section{
     width: 100%;
-    float: center;
+    float: left;
     height: 100vh;
     position: relative;
+    margin-left: 35%;
 }
 
 #home{
